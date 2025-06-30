@@ -1,8 +1,8 @@
 # 🔍 PostgreSQL Multi-Table Search Script
 
 Script Python giúp **tự động tìm kiếm dữ liệu trong nhiều bảng PostgreSQL** theo:
-- ✅ Nhiều cột gợi ý (`contract_number`, `pay_id`, v.v.)
-- ✅ Nhiều giá trị tìm kiếm (`20250101010101001`, `PAY123`, v.v.)
+- ✅ Nhiều cột gợi ý (`col_name1`, `col_name2`, v.v.)
+- ✅ Nhiều giá trị tìm kiếm (`search_value1`, `search_value2`, v.v.)
 - ✅ Tự động xác định cột khóa chính (`PRIMARY KEY`) để sắp xếp `ORDER BY DESC`
 - ✅ Ghi kết quả từng bảng ra file `.csv` riêng và một file tổng hợp `all_results.csv`
 
